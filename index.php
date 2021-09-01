@@ -27,10 +27,25 @@
       }
     }
      ?>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i" rel="stylesheet">
+    <style>    
+        body{ font: 15px sans-serif; }
+        .wrapper{ width: 5px; padding: 2px; }
+    </style>
+  </head>
+  <body>
+
+
     <h1>Anmelden</h1>
     <form action="index.php" method="post">
       <input type="text" name="username" placeholder="Username" required><br>
       <input type="password" name="pw" placeholder="Passwort" required><br>
+      <p></p>
       <button type="submit" name="submit">Einloggen</button>
     </form>
     <br>

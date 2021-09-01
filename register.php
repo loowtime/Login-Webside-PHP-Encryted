@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Account erstellen</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   </head>
   <body>
     <?php
@@ -37,6 +38,10 @@
       <input type="password" name="pw2" placeholder="Passwort wiederholen" required><br>
       <button type="submit" name="submit">Erstellen</button>
     </form>
+    <style>
+        body{ font: 14px sans-serif; }
+        .wrapper{ width: 360px; padding: 20px; }
+    </style>
     <br>
     <a href="index.php">Hast du bereits einen Account?</a>
   </body>
