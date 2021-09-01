@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION["username"])){
-  header("Location: login.php");
+  header("Location: index.php");
   exit;
 }
  ?>
@@ -12,6 +12,7 @@ if(!isset($_SESSION["username"])){
     <title></title>
   </head>
   <body>
+    <h1>Top Secret</h1>
     <a href="logout.php">Abmelden</a>
   </body>
 </html>
